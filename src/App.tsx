@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './open_gyro_outline.jpg';
 import './App.css';
 
 function App() {
