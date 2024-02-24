@@ -13,8 +13,6 @@ test("renders Location", () => {
   render(<Location {...props} />);
 
   const location = screen.getByRole("link");
-
-  expect(location).toBeInTheDocument();
   expect(location).toHaveAttribute("href", props.url);
   expect(location.innerHTML).toBe(
     `<div class="location-name">${props.name}</div><div class="location-address lefty">${props.location.address1}</div><div class="location-distance righty">${props.distance.toFixed(2)} meters</div>`,
