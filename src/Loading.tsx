@@ -1,11 +1,10 @@
-import React from 'react';
+import logo from './open_gyro_outline.png'
 
-function Loading() {
+export default function Loading() {
   return (
     <div id="loading">
+      <img src={logo} className="App-logo" alt="logo" />
       Loading...
     </div>
   );
 }
-
-export default Loading;

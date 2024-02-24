@@ -28,6 +28,54 @@
   color: #61dafb;
 }
 
+#locations {
+  width: 90%;
+
+  > ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.location {
+  border: 1px solid #2440F2;
+  background-color: #2440F2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.location:hover {
+  background-color: white;
+
+  > a > div {
+    color: #2440F2;
+  }
+}
+
+.location-name {
+  font-size: calc(45px + 2vmin);
+}
+
+.location-address, .location-distance {
+  font-size: calc(15px + 2vmin);
+  display: inline-block;
+  width: 40%;
+}
+
+.lefty {
+  text-align: left;
+}
+
+.righty {
+  text-align: right;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
