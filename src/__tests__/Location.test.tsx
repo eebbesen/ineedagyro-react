@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import Location from '../Location';
 
 test('renders Location', () => {
-  const props = {key: "gyro-shop-saint-paul", alias: "gyro-shop-saint-paul", name: 'Gyro Shop', location: { address1: '1234 Main Street' }, distance: 55.12345, url: 'https://gyros.gyros'}
+  const props = {key: 'gyro-shop-saint-paul', alias: 'gyro-shop-saint-paul', name: 'Gyro Shop', location: { address1: '1234 Main Street' }, distance: 55.12345, url: 'https://gyros.gyros'}
   render(<Location {...props}   />);
 
   const location = screen.getByRole('link')
