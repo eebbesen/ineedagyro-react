@@ -7,6 +7,7 @@ Find gyros near a given location using [the Yelp Fustion API](https://docs.devel
 1. Create `.env` in the root of the project with `REACT_APP_YELP_API_KEY` set to a bearer token value
 1. `npm install`
 1. `npm start`
+1. Browse to http://localhost:3000
 
 ## Developers
 
@@ -41,7 +42,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Learn More
+#### `npm run prettier`
+
+Runs prettier in write mode.
+
+## Other
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
