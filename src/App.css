@@ -43,8 +43,8 @@
 }
 
 .location {
-  border: 1px solid #2440F2;
-  background-color: #2440F2;
+  border: 1px solid #2440f2;
+  background-color: #2440f2;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -54,7 +54,7 @@
   background-color: white;
 
   > a > div {
-    color: #2440F2;
+    color: #2440f2;
   }
 }
 
@@ -62,7 +62,8 @@
   font-size: calc(45px + 2vmin);
 }
 
-.location-address, .location-distance {
+.location-address,
+.location-distance {
   font-size: calc(15px + 2vmin);
   display: inline-block;
   width: 40%;

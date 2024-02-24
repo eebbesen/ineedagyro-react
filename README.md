@@ -1,12 +1,15 @@
 # I Need a Gyro
+
 Find gyros near a given location using [the Yelp Fustion API](https://docs.developer.yelp.com/docs/fusion-intro)
 
 ## Setup
+
 1. Create `.env` in the root of the project with `REACT_APP_YELP_API_KEY` set to a bearer token value
 1. `npm install`
 1. `npm start`
 
 ## Developers
+
 ### Test Help
 
 [Aria Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
