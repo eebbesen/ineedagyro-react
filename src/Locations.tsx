@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 import getData from "./getData";
 import Location from "./Location";
 import Loading from "./Loading";
 
-export default function Locations({ lat, lng }: { lat: Number; lng: Number }) {
+const Locations = memo(({ lat, lng }: { lat: Number; lng: Number }) =>  {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
@@ -47,4 +47,6 @@ export default function Locations({ lat, lng }: { lat: Number; lng: Number }) {
       </div>
     );
   }
-}
+})
+
+export default Locations;
